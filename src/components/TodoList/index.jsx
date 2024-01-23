@@ -1,8 +1,8 @@
-import TodoItem from "../TodoItem";
 
+import './TodoList.css'
 function TodoList({children}){
     return(
-      <ul>
+      <ul className="lista">
         {children}
       </ul>
     );

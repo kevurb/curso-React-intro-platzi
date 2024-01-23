@@ -1,17 +1,22 @@
-.button_crear{
+.button{
     
-    
+    display: flex;
+  justify-content: center;
   
-    
-
+  align-items: center;
+  
 }
+
 .button_crear{
     width: 64px;
     height: 64px;
     top: 659px;
     left: 287px;
     border-radius: 75px;
-    justify-items: center;
+
+   
+    
+    
 }
 .button_crear:hover{
     font-size: larger;

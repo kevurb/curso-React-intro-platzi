@@ -4,11 +4,12 @@ function TodoItem(props){
 
     return (
       <div>
-          <li className="lista">
-             <span> V 
+          <li className="item">
+             <span>V
+             </span>
                 <p>{props.text}
                 </p>
-             </span>
+             
              <span>X </span>
           </li>
       </div>
