@@ -1,6 +1,7 @@
 .lista{
-   display:flex;
-   flex-direction:column ;
-   flex-wrap: 1;
+   margin: 10px 350px;
+   padding: 0 58px 56px 0;
+   list-style: none;
+   
     
 }

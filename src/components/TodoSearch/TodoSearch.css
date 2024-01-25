@@ -1,8 +1,8 @@
-.barra{
-    display: flex;
-    justify-content: center;
-}
 .barra_input{
+    font-size: 30;
+    text-align: center;
+    margin: 10px 480px;
+    padding: 18px 60px;
+    border-width: 0.1cm;
 
-   
 }

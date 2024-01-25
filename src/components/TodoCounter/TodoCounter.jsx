@@ -1,15 +1,9 @@
-const estilos = {
-  fontSize : 24,
-  textAlign: 'center',
-  margin: 0,
-  padding: '48px'
-}
-
-
 function TodoCounter({total, completed}){
     return(
-    <h1 style={estilos}>
-      Has completado {completed} de {total} 
+    <h1 className="TodoCounter">
+      Has completado <span>{completed}</span> 
+       de 
+       <span>{total}</span>
        to do's</h1>
   );
     }

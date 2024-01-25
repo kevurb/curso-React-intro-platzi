@@ -3,16 +3,16 @@ import './TodoItem.css'
 function TodoItem(props){
 
     return (
-      <div>
-          <li className="item">
-             <span>V
+      
+          <li className="TodoItem">
+             <span className={`Icon Icon-check ${props.completed && "Icon-check--active"}`}>V
              </span>
-                <p>{props.text}
+                <p className={`TodoItem-p  ${props.completed} $$ "TodoItem-p--complete"` } >{props.text}
                 </p>
              
-             <span>X </span>
+             <span className="Icon Icon-delete">X </span>
           </li>
-      </div>
+      
     );
   }
   export default TodoItem;
