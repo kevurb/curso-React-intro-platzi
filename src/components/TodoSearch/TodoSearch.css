@@ -1,6 +1,8 @@
 .barra_input{
     font-size: 30;
+    justify-content: center;
     text-align: center;
+    display: flex;
     margin: 10px 480px;
     padding: 18px 60px;
     border-width: 0.1cm;

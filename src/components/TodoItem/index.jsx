@@ -1,3 +1,5 @@
+import {CheckIcon} from '../../Icons/CheckIcon'
+import {DeleteIcon} from '../../Icons/DeleteIcon';
 import './TodoItem.css'
 
 function TodoItem(props){
@@ -5,12 +7,17 @@ function TodoItem(props){
     return (
       
           <li className="TodoItem">
-             <span className={`Icon Icon-check ${props.completed && "Icon-check--active"}`}>V
-             </span>
-                <p className={`TodoItem-p  ${props.completed} $$ "TodoItem-p--complete"` } >{props.text}
+           { /* <span className={`Icon Icon-check ${props.
+               completed && "Icon-check--active"}`}
+               onClick={props.onComplete}
+            >V}
+             </span>*/}
+             <CheckIcon></CheckIcon>
+                <p className={`TodoItem-p  ${props.completed && "TodoItem-p--complete"}`} >{props.text}
                 </p>
-             
-             <span className="Icon Icon-delete">X </span>
+             <DeleteIcon/>
+             { /* <span className="Icon Icon-delete"
+                   onClick={props.onDelete}>X </span>*/}
           </li>
       
     );
