@@ -1,9 +1,11 @@
 import React from "react";
 import {TodoIcon} from './TodoIcon'
-function CheckIcon (){
+function CheckIcon ({completed, onComplete}){
     return (
         <TodoIcon type="check"
-        color="red"/>
+        color={completed ? 'green':'gray'}
+        onClick={onComplete}
+        />
     );
 }
 export {CheckIcon} ;

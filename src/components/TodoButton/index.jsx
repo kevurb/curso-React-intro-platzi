@@ -4,7 +4,7 @@ import { useState } from 'react';
 function TodoButton(){
     let count=0;
     const [state, setState]= React.useState('')
-    console.log(state)
+    // console.log(state);
 
     return(
         <>

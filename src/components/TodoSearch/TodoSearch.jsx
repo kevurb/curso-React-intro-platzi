@@ -1,13 +1,13 @@
 import "./TodoSearch.css";
 import React from "react";
-import { useState } from "react";
+
 
 
 function TodoSearch({searchValue,setSerchValue}){
     
     return(
         
-        <input className="barra_input" 
+        <input className="TodoSearch" 
         placeholder="Aprender Python"
         value={searchValue}
         onChange={(e)=>{
