@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-function TodoSearch({searchValue,setSerchValue}){
+function TodoSearch({searchValue,setSearchValue}){
     
     return(
         
@@ -11,7 +11,7 @@ function TodoSearch({searchValue,setSerchValue}){
         placeholder="Aprender Python"
         value={searchValue}
         onChange={(e)=>{
-            setSerchValue(e.target.value);
+            setSearchValue(e.target.value);
         }}/>
         
     );

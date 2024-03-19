@@ -50,13 +50,13 @@ import { useState } from 'react';
             );
   const completeTodo =(text) =>{
     const newTodos = [...todos];
-    const tdIndex = newTodos.findIndex((todo)=> todo.text== text);
+    const tdIndex = newTodos.findIndex((todo)=> todo.text=== text);
     newTodos[tdIndex].completed = true;
     saveTodos(newTodos);
   }
   const deleteTodo = (text)=>{
     const newTodos = [...todos];
-    const tdIndexDel = newTodos.findIndex((todo)=> todo.text== text);
+    const tdIndexDel = newTodos.findIndex((todo)=> todo.text=== text);
     newTodos.splice(tdIndexDel,1);
     saveTodos(newTodos);
   }
